@@ -29,7 +29,8 @@ Black Eyed Peas - Labor Day (104 bpm)
 
 The Faint - Glass Danse (130 bpm)
 
-There are 3 files associated with each song. 2 .mus files and 1 .mpf file. The biggest mus file contains the song itself with remixes and looping segments for different places and situations on the track. The small one, ending with loops0.mus, contains looping audio that plays when get big air (I'm going to call this the airloop), and the sound effects for when you start and restart a big challenge. The mpf file tells the game how and when to play the content of the other 2 files. The tool can make the 2 mus files, but not the mpf file for now. That will probably be added in the future.
+There are 3 files associated with each song. 2 .mus files and 1 .mpf file. The biggest mus file contains the song itself with remixes and looping segments for different places and situations on the track. The small one, ending with loops0.mus, contains looping audio that plays when you get big air (I'm going to call this the airloop), and the sound effects for when you start and restart a big challenge. The mpf file tells the game how and when to play the content of the other 2 files. The tool can make the 2 mus files, but not the mpf file for now. That will probably be added in the future.
+
 ## Making the music
 The interactive music of SSX is beat based. When the game transitions the music from "normal" to cave remix, the asudio should bhave been edited in such a way that there is a seamless transition in terms of the beat. The beats must be placed in the same way at the start and end of all segments. A metronome beat should loop perfectly when a segment is played consecutively. 
 
