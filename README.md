@@ -33,7 +33,7 @@ The sound effects that plays when you start and restart a Big Challange can be m
 ## Conversion
 If you want to convert using one file, place the file in the same folder as the SuperSX tool, and name it music.wav. For segments, place your files in the segments folder and name them according to the contents of the txt files in the segments folder like 01.wav, 02.wav 03a.wav, 03b.wav etc. Exporting your music as segments will give more accurate results. Run the batch files with "segments" in their name to convert segments. 
 SuperSX will make a file called newMus.mus, and airloop.mus if you made an airloop file.
-After conversion
+## After conversion
 It is possible the conversion will sometimes. If there are leftover files in the temp folder that are 0 kb, then it failed the conversion for some reason. To fix this you can simply redo exporting your file(s) that lasts a bit longer. Just adding extra silence will be enough. This extra bit of the audio will not be included in the final result, it will just help with the conversion for some odd reason.
 After successfully converting your music, rename your new mus files to whatever you like and add them to one of the MUSIC.big files. Finally, it’s time to edit the music.inf playlist.inf file, in the config folder.
 Add your song to the music.inf file by copying the information og the song you used as a template. Paste it a the bottom. You can paste it whereever you want, but the list of songs in game is based on the ordering of the songs in the music.inf and playlist.inf documents. What index has been selected in your custom playlist remains unchanged. This means that if you add a new song at the top of music.inf, the songs selected to be part of your playlist in-game will change. 
