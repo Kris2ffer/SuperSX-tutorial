@@ -42,6 +42,7 @@ The segments also have alternative versions that plays when you crash. Often the
 Now these files can be either placed in the segments folder if you want to convert each segment seperately, or in a single project that will contain all of the music and mixes for caves etc that will be exported as a single file. The segments must be in the same order as they are in the template song.
 
 The airloop must be at a certain length, should be the same bpm as the song and should obviously loop well. This file must be saved as airloop.wav and placed in the same folder as the tool. You can choose to not make an airloop if you don’t want to.
+
 Note: 
 
 Some segments, for big challanges or cave remix, will change tempo.
