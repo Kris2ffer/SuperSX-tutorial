@@ -13,21 +13,14 @@ Paypal: paypal.me/mppro
 ## About SuperSX and the music in SSX
 The tool is currently using existing music files as a template. This means you must make and mix segments that are structured in the exact same way as the template used. They must also be of the same length and should use the same beats per minute. When you're done making your mix, you export it as wav files and use SuperSX to convert it. There are two ways of converting your music, either as one wav file, or one file for each segments. The latter option is preferred. There are however only a few songs that can currently be used as templates. The songs are listed below, but only the last 3 have support for segmented exports.
 
-Swollen Members - Deep End (92 bpm)
-
-Basement Jaxx - Do Your Thing (124.87 bpm)
-
-X-ecutioners - Like This (139 bpm)
-
-Queens of the Stone Age - No One Knows (165 bpm)
-
-Yellowcard - Way Away (180 bpm)
-
-Dilated Peoples - Who's Who (97.1 bpm)
-
-Black Eyed Peas - Labor Day (104 bpm)
-
-The Faint - Glass Danse (130 bpm)
+* Swollen Members - Deep End (92 bpm)
+* Basement Jaxx - Do Your Thing (124.87 bpm)
+* X-ecutioners - Like This (139 bpm)
+* Queens of the Stone Age - No One Knows (165 bpm)
+* Yellowcard - Way Away (180 bpm)
+* Dilated Peoples - Who's Who (97.1 bpm)
+* Black Eyed Peas - Labor Day (104 bpm)
+* The Faint - Glass Danse (130 bpm)
 
 There are 3 files associated with each song. 2 .mus files and 1 .mpf file. The biggest mus file contains the song itself with remixes and looping segments for different places and situations on the track. The small one, ending with loops0.mus, contains looping audio that plays when you get big air (I'm going to call this the airloop), and the sound effects for when you start and restart a big challenge. The mpf file tells the game how and when to play the content of the other 2 files. The tool can make the 2 mus files, but not the mpf file for now. That will probably be added in the future.
 
