@@ -27,10 +27,11 @@ There are 3 files associated with each song. 2 .mus files and 1 .mpf file. The b
 ## Making the music
 The interactive music of SSX is beat based. When the game transitions the music from "normal" to cave remix, the asudio should bhave been edited in such a way that there is a seamless transition in terms of the beat. The beats must be placed in the same way at the start and end of all segments. A metronome beat should loop perfectly when a segment is played consecutively. 
 
-The documents in the segments folder tells you the layout of the music. You should use the info in these documents do cut and mix your music. Many segments have a normal part, and a secondary part that plays after you crash. These segments are shown as a and b. 
+The documents in the segments folder tells you the layout of the music. You should use the info in these documents to cut and mix your music. Many segments have a normal part, and a secondary part that plays after you crash. These segments are shown as a and b. 
 
-For example in bep-laborday-segments.txt. The beginning starts on segment #8 and points to segment #7. Segment 8 is 18,456 seconds long and #7 is 23,07 seconds long. In your audio editor, make a cut after that amount time and export each part. This should be after making sure your music adapted to the correct bpm if it already wasn't. 
-The segments also have alternative versions that plays when you crash. Often they are instrumental only versions of the main version. You can use the same audio clip for both so the muscic won't change when you crash.
+For example in bep-laborday-segments.txt. The beginning starts on segment #8 and points to segment #7. Segment 8 is 18,456 seconds long and #7 is 23,07 seconds long. In your audio editor, make a cut after that amount of time and export each part. This should be after making sure your music adapted to the correct bpm if it already wasn't. 
+
+The segments also have alternative versions that play when you crash. Often they are instrumental only versions of the main version. You can use the same audio clip for both so the muscic won't change when you crash.
 
 Now these files can be either placed in the segments folder if you want to convert each segment seperately, or in a single project that will contain all of the music and mixes for caves etc that will be exported as a single file. The segments must be in the same order as they are in the template song.
 
@@ -42,7 +43,7 @@ Some segments, for big challanges or cave remix, will change tempo.
 
 The airloop must be in mono.
 
-### Big challange sound effects
+### Big challenge sound effects
 The sound effects that plays when you start and restart a Big Challange can be modified for each song. The audio files for these sound effects are in the bc folder. You can replace them with any sounds you want. Just remember to use the same names.
 
 ## Conversion
