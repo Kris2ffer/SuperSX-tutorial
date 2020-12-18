@@ -71,7 +71,7 @@ Change the id in the square brackets to a new id for your song. This will be use
 
 **Pathdata** can be left as it is. You can reference the mpf file of your template song. No need to make a copy of it.
 
-**Ducktoloops* tells the game if it should lower the volume of your song and play the airloop during big air time. If you don't have an airloop, then add "DUCKTOLOOPS = 0" to the configuration. 
+**Ducktoloops** tells the game if it should lower the volume of your song and play the airloop during big air time. If you don't have an airloop, then add "DUCKTOLOOPS = 0" to the configuration. 
 
 **Sedvalue** is the introduction DJ Atomika gives your song. -1 gives no introduction. 999 will give you a generic introduction. Can also use 15.
 
