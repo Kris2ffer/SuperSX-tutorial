@@ -69,7 +69,7 @@ After successfully converting your music, rename your new mus files to whatever 
 Add your song to the music.inf file by copying the information og the song you used as a template. Paste it a the bottom. You can paste it whereever you want, but the list of songs in game is based on the ordering of the songs in the music.inf and playlist.inf documents. What index has been selected in your custom playlist remains unchanged. This means that if you add a new song at the top of music.inf, the songs selected to be part of your playlist in-game will change. 
 Change the id in the square brackets to a new id for your song. This will be used in playist.inf and is supposed to be unique. 
 
-**Pathlevel** is the volume of your song. You should initially set this to 100, then test how it sounds like in game. If the volume still sounds like it is too low, then edit the audio by using compression filter. Some music is already compressed, and don't need the volume set to 100. Just experiment with it.
+**Pathlevel** is the volume of your song. You should initially set this to 100, then test how it sounds like in game. If the volume still sounds like it is too low, then it must be boosted with an audio editor. Look at Making the music section.
 
 **Asynclevel** is the volume of teh airloop. Do the same as with Pathlevel.
 
