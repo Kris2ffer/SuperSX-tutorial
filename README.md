@@ -27,6 +27,8 @@ There are 3 files associated with each song. 2 .mus files and 1 .mpf file. The b
 ## Making the music
 The interactive music of SSX is beat based. When the game transitions the music from "normal" to cave remix, the audio should have been edited in such a way that there is a seamless transition in terms of the beat. The beats must be placed in the same way at the start and end of all segments. A metronome beat should loop perfectly when a segment is played consecutively. 
 
+![](/tut-met-bars.png)
+
 The documents in the segments folder tells you the layout of the music. You should use the info in these documents to cut and mix your music. Many segments have a normal part, and a secondary part that plays after you crash. These segments are shown as a and b. 
 
 For example in bep-laborday-segments.txt. The beginning starts on segment #8 and points to segment #7. Segment 8 is 18,456 seconds long and #7 is 23,07 seconds long. In your audio editor, make a cut after that amount of time and export each part. This should be after making sure your music adapted to the correct bpm if it already wasn't. 
