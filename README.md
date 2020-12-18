@@ -49,12 +49,12 @@ Some segments, for big challanges or cave remix, will change tempo.
 The sound effects that plays when you start and restart a Big Challange can be modified for each song. The audio files for these sound effects are in the bc folder. You can replace them with any sounds you want. Just remember to use the same names.
 
 ## Conversion
-If you want to convert using one file, place the file in the same folder as the SuperSX tool, and name it music.wav. For segments, place your files in the segments folder and name them according to the contents of the txt files in the segments folder like 01.wav, 02.wav 03a.wav, 03b.wav etc. Exporting your music as segments will give more accurate results. Run the batch files with "segments" in their name to convert segments. 
+If you want to convert using one file, place the file in the same folder as the SuperSX tool, and name it music.wav. For segments, place your files in the segments folder and name them according to the contents of the txt files in the segments folder like 01.wav, 02.wav 03a.wav, 03b.wav etc. Exporting your music as segments will give more accurate results. Run the batch files with "segments" in their name to convert segments. If you get the error message "sx.exe has stopped working", then try adding extra silence to the segment that happened on. It's fine if the duration of a segment is longer.
 
 SuperSX will make a file called newMus.mus, and airloop.mus if you made an airloop file.
 
 ## After conversion
-It is possible the conversion will sometimes. If there are leftover files in the temp folder that are 0 kb, then it failed the conversion for some reason. To fix this you can simply redo exporting your file(s) that lasts a bit longer. Just adding extra silence will be enough. This extra bit of the audio will not be included in the final result, it will just help with the conversion for some odd reason.
+It is possible the conversion will fail sometimes. If there are leftover files in the temp folder that are 0 kb, then it failed the conversion for some reason. To fix this you can simply make the duration of your files a bit longer. Just adding extra silence will be enough. This extra bit of the audio will not be included in the final result, it will just help with the conversion for some odd reason.
 
 After successfully converting your music, rename your new mus files to whatever you like and add them to one of the MUSIC.big files. Finally, it’s time to edit the music.inf playlist.inf file, in the config folder.
 
