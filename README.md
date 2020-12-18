@@ -31,6 +31,12 @@ The interactive music of SSX is beat based. When the game transitions the music 
 
 ![](/tut-met-bars.png)
 
+The game will play the audio at a lower volume than it normally would on your computer depending on how much the audio is “compressed”. This means that the audio must often be boosted/amplified first. To identify if your music must be boosted, simply look at the wave form and see if it fills almost the entire audio space. 
+
+Boosting the audio in Audacity:
+First select all audio, then go to Effect -> Compressor. Adjust Threshold and Ratio to your needs. All music is different and require different adjustments. This is just something that you have to experiment with. Make sure the “Make-up gain for 0 db …” and “compress basede on peaks” options are selected.
+
+
 The documents in the segments folder tells you the layout of the music. You should use the info in these documents to cut and mix your music. Many segments have a normal part, and a secondary part that plays after you crash. These segments are shown as a and b. 
 
 For example in bep-laborday-segments.txt. The beginning starts on segment #8 and points to segment #7. Segment 8 is 18,456 seconds long and #7 is 23,07 seconds long. In your audio editor, make a cut after that amount of time and export each part. This should be after making sure your music adapted to the correct bpm if it already wasn't. 
