@@ -41,7 +41,7 @@ Note:
 
 Some segments, for big challanges or cave remix, will change tempo.
 
-The airloop must be in mono.
+**The airloop must be exported as mono.**
 
 ### Big challenge sound effects
 The sound effects that plays when you start and restart a Big Challange can be modified for each song. The audio files for these sound effects are in the bc folder. You can replace them with any sounds you want. Just remember to use the same names.
