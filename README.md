@@ -34,7 +34,7 @@ The interactive music of SSX is beat based. When the game transitions the music 
 The game will play the audio at a lower volume than it normally would on your computer depending on how much the audio is “compressed”. This means that the audio must often be boosted/amplified first. To identify if your music must be boosted, simply look at the wave form and see if it fills almost the entire audio space. 
 
 Boosting the audio in Audacity:
-First select all audio, then go to Effect -> Compressor. Adjust Threshold and Ratio to your needs. All music is different and require different adjustments. This is just something that you have to experiment with. Make sure the “Make-up gain for 0 db …” and “compress basede on peaks” options are selected.
+First select all audio, then go to Effect -> Compressor. Adjust Threshold and Ratio to your needs. All music is different and require different adjustments. This is just something that you have to experiment with. Make sure the “Make-up gain for 0 db …” and “Compress based on peaks” options are selected.
 
 
 The documents in the segments folder tells you the layout of the music. You should use the info in these documents to cut and mix your music. Many segments have a normal part, and a secondary part that plays after you crash. These segments are shown as a and b. 
