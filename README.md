@@ -4,7 +4,7 @@ Note:
 
 SuperSX must be placed on the C drive. 
 
-You are going to need a tool that can make changes to .big files, like finalbig.
+You are going to need a tool that can make changes to .big files, like finalbig. Finalbig is included with SuperSX.
 
 If you find this tool useful, then please consider making some kind of a donation. It doesn't have to be money, a well made music mix is also an option.
 
@@ -61,19 +61,19 @@ After successfully converting your music, rename your new mus files to whatever 
 Add your song to the music.inf file by copying the information og the song you used as a template. Paste it a the bottom. You can paste it whereever you want, but the list of songs in game is based on the ordering of the songs in the music.inf and playlist.inf documents. What index has been selected in your custom playlist remains unchanged. This means that if you add a new song at the top of music.inf, the songs selected to be part of your playlist in-game will change. 
 Change the id in the square brackets to a new id for your song. This will be used in playist.inf and is supposed to be unique. 
 
-Pathlevel is the volume of your song. You should initially set this to 100, then test how it sounds like in game. If the volume still sounds like it is too low, then edit the audio by using compression filter. Some music is already compressed, and don't need the volume set to 100. Just experiment with it.
+**Pathlevel** is the volume of your song. You should initially set this to 100, then test how it sounds like in game. If the volume still sounds like it is too low, then edit the audio by using compression filter. Some music is already compressed, and don't need the volume set to 100. Just experiment with it.
 
-Asynclevel is the volume of teh airloop. Do the same as with Pathlevel.
+**Asynclevel** is the volume of teh airloop. Do the same as with Pathlevel.
 
-Musdata and loopdata must be changed to the names of your new mus files. 
+**Musdata** and loopdata must be changed to the names of your new mus files. 
 
-Pathdata can be left as it is. You can reference the mpf file of your template song. No need to make a copy of it.
+**Pathdata** can be left as it is. You can reference the mpf file of your template song. No need to make a copy of it.
 
-Ducktoloops tells the game if it should lower the volume of your song and play the airloop during big air time. If you don't have an airloop, then add "DUCKTOLOOPS = 0" to the configuration. 
+**Ducktoloops* tells the game if it should lower the volume of your song and play the airloop during big air time. If you don't have an airloop, then add "DUCKTOLOOPS = 0" to the configuration. 
 
-Sedvalue is the introduction DJ Atomika gives your song. -1 gives no introduction. 999 will give you a generic introduction. Can also use 15.
+**Sedvalue** is the introduction DJ Atomika gives your song. -1 gives no introduction. 999 will give you a generic introduction. Can also use 15.
 
-You can also change how much the song cuts off with Lowpass.
+You can also change how much the song cuts off with **Lowpass**.
 
 After editing music.inf, add your song id to playlist.inf at the bottom. It should be in teh same order as music.inf. If the order is wrong, the game is very likely to crash between heats in a race. 
 
