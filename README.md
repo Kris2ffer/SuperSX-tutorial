@@ -6,7 +6,9 @@ SuperSX must be placed on the C drive.
 
 You are going to need a tool that can make changes to .big files, like finalbig. Finalbig is included with SuperSX.
 
-If you find this tool useful, then please consider making some kind of a donation. It doesn't have to be money, a well made music mix is also an option.
+You can contact me on email: kris.supersx@gmail.com, youtube: https://www.youtube.com/channel/UCqo34dlxornriXOMfCI0JiQ, reddit: https://www.reddit.com/user/Kris2ffer/
+
+I would appreciate if you send me the music files you create, or make a donation if you have found this tool useful.
 
 Paypal: paypal.me/mppro
 
@@ -36,6 +38,9 @@ The game will play the audio at a lower volume than it normally would on your co
 Boosting the audio in Audacity:
 First select all audio, then go to Effect -> Compressor. Adjust Threshold and Ratio to your needs. All music is different and require different adjustments. This is just something that you have to experiment with. Make sure the “Make-up gain for 0 db …” and “Compress based on peaks” options are selected.
 
+Here is an axample of audio that will be loud enough in game. It can also be a little less extreme, but it is better to make it too loud than too quiet, as the volume for individual songs can be adjusted down in a config file.
+
+![](/wave-example.png)
 
 The documents in the segments folder tells you the layout of the music. You should use the info in these documents to cut and mix your music. Many segments have a normal part, and a secondary part that plays after you crash. These segments are shown as a and b. 
 
@@ -49,9 +54,10 @@ The airloop must be at a certain length, should be the same bpm as the song and 
 
 Note: 
 
-Some segments, for big challanges or cave remix, will change tempo.
+* Some segments, for big challanges or cave remix, will change tempo.
+* **The airloop must be exported as mono.**
+* I have gotten feedback that the tool wouldn't properly convert the files at 41.1 Hz but got it working at 48 Hz
 
-**The airloop must be exported as mono.**
 
 ### Big challenge sound effects
 The sound effects that plays when you start and restart a Big Challange can be modified for each song. The audio files for these sound effects are in the bc folder. You can replace them with any sounds you want. Just remember to use the same names.
